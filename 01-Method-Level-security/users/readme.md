@@ -142,3 +142,13 @@ public class WebSecurity {
     }
 }
 ```
+
+```
+curl --location 'http://localhost:8080/users?page=0&limit=2' \
+--header 'Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJiZjk5Y2MwZi1kMWM4LTRiZWItYmY1MS1mZjA3MzNhYTkyNTMiLCJpYXQiOjE3NDI3OTE0MjcsImV4cCI6MTc0Mjc5NTAyN30.ANncsFd0ADofw4icUAGCnccZ1YrswELCRWbtX9i6dJBzQdlH7r2xI_ut-hrPcYpkUJCEG-pUZUFMHWGUTI6tyA'
+```
+
+```
+[{"id":"bf99cc0f-d1c8-4beb-bf51-ff0733aa9253","firstName":"John","lastName":"Doe","email":"john.doe1@gmail.com"}]
+```
+
