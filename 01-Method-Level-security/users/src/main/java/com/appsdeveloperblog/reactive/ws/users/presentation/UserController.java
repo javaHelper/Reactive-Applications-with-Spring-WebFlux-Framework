@@ -17,7 +17,7 @@ import java.util.UUID;
 
 @RestController
 @RequestMapping("/users") //   http://localhost:8080/users
-public class UserController {
+public class   UserController {
 
     private final UserService userService;
 
